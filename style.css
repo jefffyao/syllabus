@@ -3,14 +3,51 @@
     src: url('mplus-1m-bold-webfont.eot');
     src: url('mplus-1m-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('mplus-1m-bold-webfont.woff2') format('woff2'),
-         url('mplus-1m-bold-webfont.woff') format('woff'),
+         url('font1/mplus-1m-bold-webfont.woff') format('woff'),
          url('mplus-1m-bold-webfont.ttf') format('truetype'),
          url('mplus-1m-bold-webfont.svg#m_1mbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'm_1mlight';
+    src: url('mplus-1m-light-webfont.eot');
+    src: url('mplus-1m-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mplus-1m-light-webfont.woff2') format('woff2'),
+         url('font1/mplus-1m-light-webfont.woff') format('woff'),
+         url('mplus-1m-light-webfont.ttf') format('truetype'),
+         url('mplus-1m-light-webfont.svg#m_1mlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.body{
-  font-family: m_1mbold;
+
+
+h1{
+  font-family: 'm_1mbold';
+  font-size: 40pt;
+  margin-left: 30px;
+}
+
+h2{
+  font-family: 'm_1mlight';
+  font-size: 40pt;
+  margin-top: 25px;
+  padding-bottom: 600pt;
+  margin-left: 30px;
+}
+h3{
+  font-family: 'm_1mlight';
+  font-size: 20pt;
+  position: relative;
+  padding-top: 300pt;
+}
+#subtitle{
+  font-family: m_1mlight;
+  font-size: 40pt;
+  line-height:0pt;
+  position: relative;
+}
+html{
+  background-color: rgb(245, 243, 233);
 }
