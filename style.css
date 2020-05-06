@@ -21,33 +21,109 @@
     font-style: normal;
 }
 
+#a {font-family: m_1mbold;
+font-size: 20pt;
+line-height: 50pt;}
 
+#b {font-family: m_1mbold;
+font-size: 20pt;
+line-height: 50pt;}
+
+#c {font-family: m_1mbold;
+font-size: 20pt;
+line-height: 50pt;}
+
+#d {font-family: m_1mbold;
+font-size: 20pt;
+line-height: 50pt;}
 
 h1{
   font-family: 'm_1mbold';
-  font-size: 40pt;
-  margin-left: 30px;
+  font-size: 60pt;
+  margin-left: 100px;
+  top: 20px;
+  position: fixed;
+  z-index: 3;
 }
 
 h2{
   font-family: 'm_1mlight';
-  font-size: 40pt;
-  margin-top: 25px;
-  padding-bottom: 600pt;
-  margin-left: 30px;
+  font-size: 30pt;
+  margin-top: 300px;
+  padding-bottom: 0pt;
+  margin-left: 100px;
+  position:fixed;
+  z-index: 2;
 }
 h3{
   font-family: 'm_1mlight';
-  font-size: 20pt;
-  position: relative;
-  padding-top: 300pt;
+  font-size: 19pt;
+  position: absolute;
+  padding-top: 0pt;
+  margin-top:0px;
+  top:277px;
+  margin-left: 450px;
+  width:750px;
+  z-index: 1;
+  color:transparent;
 }
 #subtitle{
   font-family: m_1mlight;
   font-size: 40pt;
   line-height:0pt;
   position: relative;
+  left:28px;
+  bottom:1px;
 }
 html{
   background-color: rgb(245, 243, 233);
+}
+
+p{
+  margin-top: 20px;
+}
+p1{
+  margin-top: 40px
+}
+.list{
+  line-height: 15px;
+  margin-top: 34px;
+  position: absolute;
+}
+.bodytext{
+  line-height: 33px;
+  margin-top: 45px;
+}
+.project {}
+.container{
+  background-color: rgb(245, 243, 233);
+  position: fixed;
+  z-index: 3;
+  height:275px;
+  width: 100vw;
+  margin-top: -10px;
+  padding:0;
+}
+
+#coursedes1 {
+  position: absolute;
+  margin-top: 0px;
+}
+#schedule1 {
+  position: absolute;
+  margin-top: 0px;
+}#resources1 {
+  position: absolute;
+  margin-top: 0px;
+}#projects1 {
+  position: absolute;
+  margin-top: 0px;
+}
+
+.pink:hover {
+  color:rgb(237,103,219);
+}
+
+.listspace {
+  padding-bottom: 15px;
 }
