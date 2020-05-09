@@ -69,8 +69,8 @@ h3{
 }
 #subtitle{
   font-family: m_1mlight;
-  font-size: 40pt;
-  line-height:0pt;
+  font-size: 14pt;
+  line-height:3.5pt;
   position: relative;
   left:28px;
   bottom:1px;
@@ -99,7 +99,7 @@ p1{
   background-color: rgb(245, 243, 233);
   position: fixed;
   z-index: 3;
-  height:275px;
+  height:85px;
   width: 100vw;
   margin-top: -10px;
   padding:0;
@@ -126,4 +126,13 @@ p1{
 
 .listspace {
   padding-bottom: 15px;
+}
+@media only screen and (max-width: 1525px){
+  h1{
+    font-family: 'm_1mbold';
+    margin-left: 100px;
+    top: 20px;
+    position: fixed;
+    z-index: 3;
+  }
 }
