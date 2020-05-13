@@ -66,6 +66,7 @@ h3{
   width:750px;
   z-index: 1;
   color:transparent;
+  pointer-events: none;
 }
 #subtitle{
   font-family: m_1mlight;
@@ -127,6 +128,8 @@ p1{
 .listspace {
   padding-bottom: 15px;
 }
+
+
 @media only screen and (max-width: 1525px){
   h1{
     font-family: 'm_1mbold';
@@ -135,4 +138,77 @@ p1{
     position: fixed;
     z-index: 3;
   }
+}
+
+h4{position: absolute;top:277px;
+  margin-left: 450px;}
+
+#box1{
+  background-color: transparent;
+  position: absolute;
+  display: none;
+  width: 500px;
+  height: 150px;}
+#box2{
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    display: none;
+    width: 500px;
+    height: 150px;}
+#box3{
+      background-color: transparent;
+      position: absolute;
+      display: none;
+      top: 600px;
+      width: 500px;
+      height: 150px;}
+#box4{
+        background-color: transparent;
+        position: absolute;
+        display: none;
+        top: 1050px;
+        width: 500px;
+        height: 150px;}
+#box5{
+          background-color: transparent;
+          position: absolute;
+          display: none;
+          top: 1570px;
+          width: 500px;
+          height: 150px;}
+#img1 {
+    display: none;
+    position:fixed;
+  width: 750px;
+  top:80px;
+    z-index: 16;
+}
+#img2 {
+    display: none;
+      position:fixed;
+      z-index: 15;
+      top:78px;
+  width: 750px;
+}
+#img3 {
+    display: none;
+  width: 750px;
+  position:fixed;
+    z-index: 14;
+    top:80px;
+}
+#img4 {
+    display: none;
+    position:fixed;
+      z-index: 13;
+  width: 750px;
+  top:80px;
+}
+#img5 {
+    display: none;
+    position:fixed;
+    z-index: 12;
+  width: 750px;
+  top:80px;
 }
