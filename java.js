@@ -19,6 +19,11 @@ function linkText(a) {
   document.getElementById('b').style = "pink";
   document.getElementById('c').style = "pink";
   document.getElementById('d').style = "pink";
+  document.getElementById('box1').style.display = "none";
+  document.getElementById('box2').style.display = "none";
+  document.getElementById('box3').style.display = "none";
+  document.getElementById('box4').style.display = "none";
+  document.getElementById('box5').style.display = "none";
   document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 }
@@ -32,6 +37,11 @@ function linkText1(b) {
   document.getElementById('b').style.color = "rgb(237,103,219)";
   document.getElementById('c').style = "pink";
   document.getElementById('d').style = "pink";
+  document.getElementById('box1').style.display = "none";
+  document.getElementById('box2').style.display = "none";
+  document.getElementById('box3').style.display = "none";
+  document.getElementById('box4').style.display = "none";
+  document.getElementById('box5').style.display = "none";
   document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 }
@@ -61,6 +71,11 @@ function linkText3(d) {
   document.getElementById('b').style = "pink";
   document.getElementById('c').style = "pink";
   document.getElementById('d').style.color = "rgb(237,103,219)";
+  document.getElementById('box1').style.display = "none";
+  document.getElementById('box2').style.display = "none";
+  document.getElementById('box3').style.display = "none";
+  document.getElementById('box4').style.display = "none";
+  document.getElementById('box5').style.display = "none";
   document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 }
