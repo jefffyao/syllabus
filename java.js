@@ -65,26 +65,35 @@ function linkText3(d) {
 
 }
 function showimg1(e)
- {document.getElementById('img1').style.display = "block";}
+ {document.getElementById('img1').style.display = "block";
+ document.getElementById('caption1').style.color = "black";
+}
+
 
 function hideimg1(e){
     document.getElementById('img1').style.display = "none";
+    document.getElementById('caption1').style.color = "transparent";
+
 }
 
 
 function showimg2(f)
- {document.getElementById('img2').style.display = "block";}
+ {document.getElementById('img2').style.display = "block";
+ document.getElementById('caption2').style.color = "black";
+}
 
 function hideimg2(f){
-  document.getElementById('img1').style.display = "none";
     document.getElementById('img2').style.display = "none";
-    document.getElementById('img3').style.display = "none";
-    document.getElementById('img4').style.display = "none";
-    document.getElementById('img5').style.display = "none";
+    document.getElementById('caption2').style.color = "transparent";
+
+
 }
 
 function showimg3(g)
- {document.getElementById('img3').style.display = "block";}
+ {document.getElementById('img3').style.display = "block";
+ document.getElementById('caption3').style.color = "black";
+
+}
 
 function hideimg3(g){
     document.getElementById('img1').style.display = "none";
@@ -92,10 +101,15 @@ function hideimg3(g){
     document.getElementById('img3').style.display = "none";
     document.getElementById('img4').style.display = "none";
     document.getElementById('img5').style.display = "none";
+    document.getElementById('caption3').style.color = "transparent";
+
 }
 
 function showimg4(h)
- {document.getElementById('img4').style.display = "block";}
+ {document.getElementById('img4').style.display = "block";
+ document.getElementById('caption4').style.color = "black";
+
+}
 
 function hideimg4(h){
   document.getElementById('img1').style.display = "none";
@@ -103,10 +117,16 @@ function hideimg4(h){
     document.getElementById('img3').style.display = "none";
     document.getElementById('img4').style.display = "none";
     document.getElementById('img5').style.display = "none";
+    document.getElementById('caption4').style.color = "transparent";
+
 }
 
 function showimg5(i)
- {document.getElementById('img5').style.display = "block";}
+ {document.getElementById('img5').style.display = "block";
+ document.getElementById('caption5').style.color = "black";
+
+}
+
 
 function hideimg5(i){
   document.getElementById('img1').style.display = "none";
@@ -114,4 +134,6 @@ function hideimg5(i){
     document.getElementById('img3').style.display = "none";
     document.getElementById('img4').style.display = "none";
     document.getElementById('img5').style.display = "none";
+    document.getElementById('caption5').style.color = "transparent";
+
 }
